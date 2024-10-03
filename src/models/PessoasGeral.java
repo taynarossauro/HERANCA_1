@@ -21,13 +21,13 @@ public class PessoasGeral {
 	//@return Construtor de nome
 	public String getNome() {
 		return
-				nome;
+			nome;
 	}
 	
 	//@return construtor de endereço
 	public String getEndereco() {
 		return
-				endereco;
+			endereco;
 	}
 	
 }

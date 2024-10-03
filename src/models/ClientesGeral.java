@@ -10,11 +10,10 @@ public class ClientesGeral extends PessoasGeral {
 	//Construtor da classe
 	public ClientesGeral (String nome, String endereco, String email) {
 		super(nome, endereco);
-		this.email = email;
-		
+		this.email = email;	
 	}
 	
-	//@return construtor de E-mail
+	//@return o E-mail
 	public String getEmail() {
 		return
 				email;

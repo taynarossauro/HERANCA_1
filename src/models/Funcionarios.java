@@ -1,6 +1,10 @@
 package models;
+/*
+ * @author Taynara
+ */
 
 public class Funcionarios extends PessoasGeral{
+	//Declarando atributos
 	private double salario;
 	private String cpf;
 	
@@ -11,11 +15,13 @@ public class Funcionarios extends PessoasGeral{
 		this.cpf = cpf;
 	}
 	
+	//@return o CPF
 	public String getCPF() {
 		return
 			cpf;
 	}
 	
+	//@return salario
 	public double getSalario() {
 		return
 			salario;
